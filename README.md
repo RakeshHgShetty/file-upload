@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # FileUploading
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
@@ -26,7 +26,32 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
+
 # file-upload
 simple file upload component using angular 9
->>>>>>> 05d0ff92ed8c4124fbd5b6ac28f7d3eb29e746a0
+
+Step to initiate the project
+
+ 1. node must be installed
+
+ 2. npm install -g @angular/cli.
+
+ 3. ng new project_name
+
+ 4. ng serve --port 4300(By default its 4200)
+
+ 5. ng g c upload  (component creation)
+
+ 6. ng g c upload -spect = false (if you dont want spect file)
+ 
+ 
+NOTE: 1. Pull the code
+      2. npm install
+      3. ng serve
+
+
+
+
+
+
+
