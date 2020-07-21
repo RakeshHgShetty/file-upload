@@ -1,0 +1,105 @@
+.input_file_form {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border: 1px dashed #999999;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    background: rgba(153, 153, 153, 0.1);
+}
+
+.upload_image {
+    width: 35px;
+    height: 35px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+}
+
+#csv_file_upload {
+    width: 0px;
+    padding: 0 !important;
+    height: 0px;
+    position: relative;
+    border: none;
+    outline: 0px;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+
+fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0
+}
+
+#csv_file_upload_span {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 0px;
+    height: 55px;
+    position: relative;
+    margin-top: 175px;
+}
+
+.button_section {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.button_section a {
+    text-decoration: none;
+    outline: 0px;
+    box-shadow: none;
+    padding: 10px;
+    background: #e53e51;
+    color: #ffffff;
+    margin: auto 10px;
+    border-radius: 5px;
+    min-width: 150px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr {
+    vertical-align: initial;
+}
+
+th {
+    text-align: center;
+    background: #f1f5f8;
+    font-size: 0.875rem;
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+    font-size: 0.875rem;
+    padding: 10px;
+    color: #666;
+    white-space: nowrap;
+}
+
+td:nth-child(4) {
+    text-align: left;
+}
+
+.manage-user {
+    margin: 30px auto;
+    width: 100%;
+    max-width: 800px;
+    overflow: auto;
+    max-height: 500px;
+}

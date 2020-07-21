@@ -1,0 +1,45 @@
+<p>upload works!</p>
+<div *ngIf="true" class="form_new_row">
+    <div class="form-group col-xs-12 input_file_form">
+        <input type="file" id="csv_file_upload" [(ngModel)]="fileArray" (change)="selectFile($event)">
+        <label for="csv_file_upload"><img  class="upload_image" src="./assets/upload.svg" alt="csv_file_upload"></label>
+        <span id="csv_file_upload_span" [ngStyle]="">
+      {{filename}}
+      </span>
+        <label id="file_loading" *ngIf="false"><img src=""
+         alt="loading" style="width: 70px;height: 56px;margin-top: -17px">
+      </label>
+    </div>
+    <div class="button_section">
+        <a href="javascript:void(0);" class="import_path_btn_class btn" (click)="parseFile()" name="button">Display file content</a>
+        <a href="javascript:void(0);" class="new_file btn" (click)="resetCSVParamas()" name="button">Upload new file</a>
+    </div>
+    <div class="csv_preview" [innerHTML]="tablePreview" id="parsed_csv_list">
+        <div class="table-responsive manage-user  h-100 theme_scroll">
+            <table class="table manage-user-table w-100 d-block d-md-table users-table table-responsive-sm">
+                <thead class="thead-light">
+                    <tr>
+                        <th>Event Name</th>
+                        <th>Source</th>
+                        <th>Category</th>
+                        <th>Event Type</th>
+                        <th>Created by</th>
+                        <th>Date Range</th>
+                        <th>Type</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> ISONONrec</td>
+                        <td> demo </td>
+                        <td> testcat </td>
+                        <td> Global</td>
+                        <td> Admin</td>
+                        <td> Jul 1, 2020 4:37 AM(4 weeks)</td>
+                        <td> One Time</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
