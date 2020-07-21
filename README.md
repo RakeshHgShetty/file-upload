@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FileUploading
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# file-upload
+simple file upload component using angular 9
+>>>>>>> 05d0ff92ed8c4124fbd5b6ac28f7d3eb29e746a0
